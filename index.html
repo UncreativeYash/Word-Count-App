@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Counter App</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="conatiner">
+      <textarea
+        name="input area"
+        id="textArea"
+        placeholder="your text here"
+      ></textarea>
+    </div>
+
+    <div class="boxes">
+      <div class="box">
+        <h2 id="wordBox">0</h2>
+        <p>WORDS</p>
+      </div>
+      <div class="box">
+        <h2 id="characterBox">0</h2>
+        <p>Character</p>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
